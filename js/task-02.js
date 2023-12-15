@@ -45,7 +45,7 @@ const createGalleryItem = ({ url, alt }) => {
   return listItem;
 };
 
-const appendGalleryItems = (items) => {
+const appendGalleryItems = ((items) => {
   const galleryFragment = document.createDocumentFragment();
 
   items.forEach((item) => {
@@ -54,6 +54,6 @@ const appendGalleryItems = (items) => {
   });
 
   galleryContainer.appendChild(galleryFragment);
-};
+});
 
 appendGalleryItems(images);
