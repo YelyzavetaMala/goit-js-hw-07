@@ -13,3 +13,20 @@ body {
   line-height: 1.5;
   max-width: 1280px;
 }
+
+.gallery {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin-right: 10px;
+}
+
+.gallery-image {
+  width: 400px;
+  height: auto;
+}
